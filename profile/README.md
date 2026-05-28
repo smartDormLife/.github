@@ -61,6 +61,6 @@
 | 박서연([@yo3niii](https://github.com/yo3niii)) | 사이버보안학과 | some0312@ajou.ac.kr | FrontEnd Developer |
 | 박윤서([@Meon-ji](https://github.com/Meon-ji)) | 사이버보안학과 | pys33129747@ajou.ac.kr | BackEnd Developer |
 | 송주영([@song-direct](https://github.com/song-direct)) | 디지털미디어학과 | consky0910@ajou.ac.kr | FrontEnd Developer |
-| 송현수([@songhyeonsu1029](https://github.com/songhyeonsu1029)) | 디지털미디학과 | thdgustn1029@ajou.ac.kr  | BackEnd Developer |
+| 송현수([@songhyeonsu1029](https://github.com/songhyeonsu1029)) | 디지털미디어학과 | thdgustn1029@ajou.ac.kr  | BackEnd Developer |
 
 
