@@ -36,6 +36,21 @@
 
 ## 🧳 Technical Challenges
 
+### Challenge 1: 게시글과 파티 데이터의 연결 구조 설계
+
+단순 게시판이 아니라 게시글 작성과 동시에 파티 모집 정보가 함께 생성되어야 했습니다. 이를 위해 POST와 PARTY를 분리하되, post_id를 기준으로 두 데이터를 연결하는 구조로 설계했습니다. 사용자는 하나의 게시글 상세 페이지에서 게시글 내용과 모집 인원, 약속 시간, 장소 등의 파티 정보를 함께 확인할 수 있습니다.
+
+### Challenge 2: 파티 참여 인원 관리와 상태 자동 변경
+
+파티 참여 기능에서는 중복 참여를 막고, 현재 참여 인원과 최대 모집 인원을 비교해야 했습니다. 사용자가 파티에 참여하면 PartyMember 데이터를 생성하고, 모집 인원이 충족되면 PARTY 상태를 자동으로 모집 완료로 변경하도록 구현했습니다. 이를 통해 관리자가 직접 상태를 변경하지 않아도 서비스 흐름이 자동으로 이어지도록 했습니다.
+
+### Challenge 3: 화면 흐름에 맞는 API 응답 구조 설계
+
+메인페이지와 상세 페이지에서는 여러 테이블의 데이터가 함께 필요했습니다. 프론트엔드에서 여러 API를 반복 호출하지 않도록, 화면에서 필요한 데이터를 기준으로 API 응답 구조를 조정했습니다. 특히 상세 페이지에서는 게시글 정보, 파티 정보, 사용자의 참여 여부를 함께 반환하도록 설계했습니다.
+
+### Challenge 4: 파티 모집 완료 후 채팅방 연결 흐름 구현
+
+파티 모집이 완료되면 참여자들이 바로 소통할 수 있어야 했습니다. 이를 위해 PARTY, PartyMember, CHATROOM, CHATMEMBER 데이터를 연결하여 모집 완료 이후 채팅방이 생성되고, 파티 참여자들이 채팅방에 연결될 수 있는 흐름을 설계했습니다.
 
 <br/>
 
@@ -43,7 +58,7 @@
 
 | 이름 | 학과 | 이메일 | 역할 |
 | --- | --- | --- | --- |
-| 박서연([@yo3niii](https://github.com/yo3niii)) | 사이버보안학과 | some0312@ajou.ac.kr | BackEnd Developer |
+| 박서연([@yo3niii](https://github.com/yo3niii)) | 사이버보안학과 | some0312@ajou.ac.kr | FrontEnd Developer |
 | 박윤서([@Meon-ji](https://github.com/Meon-ji)) | 사이버보안학과 | pys33129747@ajou.ac.kr | BackEnd Developer |
 | 송주영([@song-direct](https://github.com/song-direct)) | 디지털미디어학과 | consky0910@ajou.ac.kr | FrontEnd Developer |
 | 송현수([@songhyeonsu1029](https://github.com/songhyeonsu1029)) | 디지털미디학과 | thdgustn1029@ajou.ac.kr  | BackEnd Developer |
