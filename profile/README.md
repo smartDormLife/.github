@@ -34,21 +34,18 @@
 
 <br/>
 
-### 시스템 흐름
+## 🧳 Technical Challenges
 
-```text
-회원가입 / 로그인
-        ↓
-메인페이지 접근
-        ↓
-카테고리별 게시판 조회
-        ↓
-파티 모집 글 작성
-        ↓
-게시글 + 파티 정보 저장
-        ↓
-사용자 파티 참여
-        ↓
-모집 인원 충족 시 파티 상태 변경
-        ↓
-채팅방 자동 생성 및 실시간 소통
+
+<br/>
+
+## 👥 팀 소개
+
+| 이름 | 학과 | 이메일 | 역할 |
+| --- | --- | --- |
+| 박서연([@yo3niii](https://github.com/yo3niii)) | 사이버보안학과 | some0312@ajou.ac.kr | BackEnd Developer |
+| 박윤서([@Meon-ji](https://github.com/Meon-ji)) | 사이버보안학과 | pys33129747@ajou.ac.kr | BackEnd Developer |
+| 송주영([@song-direct](https://github.com/song-direct)) | 디지털미디어학과 | consky0910@ajou.ac.kr | FrontEnd Developer |
+| 송현수([@songhyeonsu1029](https://github.com/songhyeonsu1029)) | 디지털미디학과 | thdgustn1029@ajou.ac.kr  | BackEnd Developer |
+
+
