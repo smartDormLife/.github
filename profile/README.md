@@ -30,7 +30,7 @@
 
 ## 🏗️ System Architecture
 
-![System Architecture](./assets/system-architecture.png)
+![System Architecture](./assets/system_architecture.png)
 
 <br/>
 
